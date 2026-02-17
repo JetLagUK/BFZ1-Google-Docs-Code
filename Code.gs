@@ -12,11 +12,11 @@ function onOpen() {
  * Optimized sync function handling multiple shapes with the same name.
  */
 function updateSlidesFromSheet() {
-  const sheetId = '1Q8AaBszFXRJbuOJJjMEj230D1AqiQSu8qIp8Ib0q--E'; //Google Sheets ID
-  const slideId = '1ltZMlgSLAbTinIvpYBlZa4hVRVXYPq-awujElgmN3iU'; //Google Slides ID
+  const sheetId = 'INSERT_GOOGLE_SHEETS_ID'; //Google Sheets ID
+  const slideId = 'INSERT_GOOGLE_SLIDES_ID'; //Google Slides ID
   
   const ss = SpreadsheetApp.openById(sheetId);
-  const sheet = ss.getSheetByName('Station Claims'); //Spreadsheet Tab Name
+  const sheet = ss.getSheetByName('INSERT_TAB_NAME'); //Spreadsheet Tab Name
   const data = sheet.getDataRange().getValues();
   
   const deck = SlidesApp.openById(slideId);
@@ -53,14 +53,10 @@ function updateSlidesFromSheet() {
       
       let hexColor = '#ffffff'; 
       switch(val) {
-        case 'Purple Battle': hexColor = '#ff00ff'; break;
-        case 'Blue Battle':   hexColor = '#0000ff'; break;
-        case 'Orange Battle': hexColor = '#ff9900'; break;
-        case 'Green Battle':  hexColor = '#00ff00'; break;
-        case 'Purple':        hexColor = '#d5a6bd'; break;
-        case 'Blue':          hexColor = '#9fc5e8'; break;
-        case 'Orange':        hexColor = '#f9cb9c'; break;
-        case 'Green':         hexColor = '#b6d7a8'; break;
+        case 'Purple': hexColor = '#ff00ff'; break;
+        case 'Blue':   hexColor = '#0000ff'; break;
+        case 'Orange': hexColor = '#ff9900'; break;
+        case 'Green':  hexColor = '#00ff00'; break;
         default:              hexColor = '#ffffff';
       }
 

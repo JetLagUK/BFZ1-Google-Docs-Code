@@ -17,7 +17,7 @@ This section will set up and link the code and documents. A test example will al
 You can start off with a blank Spreadsheet. Copy the Spreadsheet ID, which is found in the URL between the `d/` and `/edit` portions. Click on "Extentions" and then "App Scripts". Take note of the name of the Tab in the spreadsheet you wish to work with.
 
 ### For Our Example
-Insert `Random Name` into cell A2 and `Purple Battle` into H2. Rename the tab `Station Claims`.
+Insert `Random Name` into cell A2 and `Purple` into H2. Take note of the name of the Tab, or rename as required.
 
 ## 2. Shapes in Google Slides
 Open a Google Slides document. Copy the Slides ID, found in the URL similar to the spreadsheet.
@@ -35,7 +35,7 @@ In lines 15, 16 and 19, replace the names of the appropriate fields. Lines 55 to
 Save the code.
 
 ### For Our Example
-We won't need to do anything, just make sure the IDs and Tab name matches.
+Make sure the Google Sheets ID, Google Slides ID and the spreadsheet Tab name are correct.
 
 ## 4. Triggers
 Warning: Depending on what you choose, the code may start to run immediately.

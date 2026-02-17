@@ -13,7 +13,7 @@ Assuming no changes to the code are made and set up correctly, the code is run e
 # Set Up
 This section will set up and link the code and documents. A test example will also be provided which will be run using the exact code as presented.
 ## 1. Spreadsheet
-You can start off with a blank Spreadsheet. Copy the Spreadsheet ID, which is found in the URL between the `d/` and `/edit` portions. Click on "Extentions" and then "App Scripts". Take not of the name of the Tab in the spreadsheet you wish to work with.
+You can start off with a blank Spreadsheet. Copy the Spreadsheet ID, which is found in the URL between the `d/` and `/edit` portions. Click on "Extentions" and then "App Scripts". Take note of the name of the Tab in the spreadsheet you wish to work with.
 
 ### For Our Example
 Insert `Random Name` into cell A1 and `Purple Battle` into H1. Rename the tab `Station Claims`.

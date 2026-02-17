@@ -6,6 +6,7 @@ This guide will set up automation that synchronises shpreadsheet data onto a man
   - The code assumes you are working with two columns in a <ins>single spreadsheet tab</ins> and maps only to <ins>shapes</ins> in a <ins>single</ins> Google Slides document.
 - The account on which the code is run from MUST have permissions to <ins>edit</ins> BOTH documents
 - No element of this code, or usage tests, have been optimised for mobile use. PC is recommended.
+- Speeds are limited to whatever Google gives, meanins it could take over 20 seconds to run the code, in most cases it will take around 5 seconds.
 
 # How it Works
 Assuming no changes to the code are made and set up correctly, the code is run every minute, or, when the sync button is clicked in Google Sheets. It iterates all shapes in the Google Slides, if the name of a shape in the AltText field matches exactly with a field in Column A (`nameShape`), it will apply the colour of Column H (`val`) if defined. Because row 1 is a header row, A1 and H1 are ignored.

@@ -25,7 +25,7 @@ Open a Google Slides document. Copy the Slides ID, found in the URL similar to t
 Insert a shape. Right Click on the shape and select `Alt Text`. You can use the keyboard shortcut `Crtl+Alt+Y` if compatible. In the Advanced Options section, type `Random Name` into the field - this gives the shape a title. Close the formatting window and deselect the shape.
 
 ## 3. Google Scripts / App Scripts
-Security Note: You may encounter at some stage in this step that a popup is blocked, or requires logging into the appropriate Google Account. It is safe to authorise this as it does not impact anything other than the two documents already define.
+Security Note: You may encounter at some stage in this step that a popup is blocked, or requires logging into the appropriate Google Account. It is safe to authorise this as it does not impact anything other than the two documents already defined.
 
 If a code file hasn't already been opened automatically, create one. Replace anything with the complete code. Those with code literacy will immediately be able to identify which values to customise - they are all commented.
 

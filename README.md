@@ -8,7 +8,7 @@ This guide will set up automation that synchronises shpreadsheet data onto a man
 - No element of this code, or usage tests, have been optimised for mobile use. PC is recommended.
 
 # How it Works
-Assuming no changes to the code are made and set up correctly, the code is run every minute, or, when the sync button is clicked in Google Sheets. It iterates all shapes in the Google Slides, if the name of a shape in the AltText field matches exactly with a field in Column A (`nameShape`), it will apply the colour of Column H (`val`) if defined.
+Assuming no changes to the code are made and set up correctly, the code is run every minute, or, when the sync button is clicked in Google Sheets. It iterates all shapes in the Google Slides, if the name of a shape in the AltText field matches exactly with a field in Column A (`nameShape`), it will apply the colour of Column H (`val`) if defined. Because row 1 is a header row, A1 and H1 are ignored.
 
 # Set Up
 This section will set up and link the code and documents. A test example will also be provided which will be run using the exact code as presented.
@@ -16,7 +16,7 @@ This section will set up and link the code and documents. A test example will al
 You can start off with a blank Spreadsheet. Copy the Spreadsheet ID, which is found in the URL between the `d/` and `/edit` portions. Click on "Extentions" and then "App Scripts". Take note of the name of the Tab in the spreadsheet you wish to work with.
 
 ### For Our Example
-Insert `Random Name` into cell A1 and `Purple Battle` into H1. Rename the tab `Station Claims`.
+Insert `Random Name` into cell A2 and `Purple Battle` into H2. Rename the tab `Station Claims`.
 
 ## 2. Shapes in Google Slides
 Open a Google Slides document. Copy the Slides ID, found in the URL similar to the spreadsheet.
